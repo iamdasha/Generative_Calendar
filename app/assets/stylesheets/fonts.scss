@@ -1,0 +1,38 @@
+@font-face {
+  font-family: ADC;
+  src: font-url('ADC-Semi-Bold') format('opentype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Inter-Regular.woff2?v=3.19') format('woff2'),
+    url('Inter-Regular.woff?v=3.19') format('woff');
+}
+
+@font-face {
+  font-family: 'TINY 5x3';
+  font-weight: 400;
+  src: font-url('assets/fonts/TINY5x3-160.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Giant Boss';
+  src: url('assets/fonts/Giant Boss.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Apoc Normal';
+  src: url('assets/fonts/Apoc-Hairline-Trial.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'OffBit Trial Dot Bold';
+  src: url('assets/fonts/OffBitTrial-DotBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Adder';
+  src: url('assets/fonts/Adder SuperExtended.otf') format('otf');
+}

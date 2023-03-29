@@ -1,0 +1,92 @@
+body.prototype_body_44 {
+  font-family: 'Roboto', sans-serif;
+
+  #month-calendar {
+    width: 100%;
+
+    .month {
+      margin: 0;
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+      width: 100%;
+      color: #555555;
+      list-style: none;
+
+      li {
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        .year-name {
+          font-size: 1.2rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .weekdays {
+      margin: 0;
+      padding: 1rem 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: left;
+
+      li {
+        display: inline-block;
+        flex: 0 0 calc(100% / 7);
+        text-align: center;
+      }
+    }
+
+    .days {
+      margin: 0;
+      padding: 1rem 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      align-content: flex-start;
+      height: 14rem;
+
+      li {
+        padding: 0.5rem;
+        list-style: none;
+        display: inline-block;
+        flex: 0 0 calc(100% / 7);
+        text-align: center;
+        color: #999;
+        font-size: 0.9rem;
+        line-height: 1rem;
+      }
+    }
+
+    .next,
+    .prev {
+      background-color: black;
+      color: white;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#prototype_44 {
+  display: flex;
+  width: 100%;
+
+  canvas {
+    margin: auto;
+  }
+}

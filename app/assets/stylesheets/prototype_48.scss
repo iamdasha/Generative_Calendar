@@ -1,0 +1,403 @@
+body.prototype_body_48 {
+  padding: 0 248px;
+  background-color: #17181a;
+  font-family: 'arial narrow';
+  text-transform: uppercase;
+  font-size: 18px;
+
+  .next,
+  .prev {
+    //background-color: #ffffff;
+    color: #17181a;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    user-select: none;
+    position: absolute;
+    bottom: 429px;
+
+    z-index: 6;
+  }
+
+  .prev {
+    left: 820px;
+  }
+
+  .next {
+    left: 1233px;
+  }
+
+  .monthTitle {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 59px;
+  }
+
+  .description_wrapper {
+    text-align: center;
+
+    position: absolute;
+    left: 51%;
+    top: 42px;
+    width: 527px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 45px;
+      font-weight: bold;
+    }
+
+    .instruction {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .UI_wrapper {
+    text-align: center;
+    font-family: 'arial narrow';
+    position: absolute;
+    left: 51%;
+    bottom: 42px;
+    width: 527px;
+    height: 462px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .changeGradientButton, .changeCalendarStyleButton, .toggleSwitch, .saveButton {
+      width: 100%;
+      font-size: 45px;
+      font-weight: bold;
+      border: 2px solid #17181a;
+      border-radius: 50px;
+      margin-bottom: 5px;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    .changeGradientButton:hover, .changeCalendarStyleButton:hover, .toggleSwitch:hover  {
+      background-color: #C3C3C3;
+    }
+
+    .saveButton {
+      margin-top: 69px;
+      background-color: #17181a;
+      color: #f5f5f5;
+    }
+
+    .toggleSwitch {
+
+      &.active {
+        background-color: #C3C3C3;
+      }
+    }
+  }
+}
+
+#prototype_48 {
+  display: flex;
+  width: 550px;
+
+  .wrapper {
+    position: relative;
+    width: 550px;
+    height: 770px;
+    margin: auto;
+
+    #month-calendar {
+      width: 100%;
+      z-index: 3;
+
+      .st1 {
+        font-family: 'TINY 5x3', sans-serif;
+
+        .month-name {
+          font-size: 9rem;
+        }
+
+        .year-name {
+          font-size: 18rem;
+          margin-top: -66px;
+        }
+      }
+
+      .st2 {
+        font-family: 'Giant Boss', sans-serif;
+        .month-name {
+          font-size: 6rem;
+        }
+
+        .year-name {
+          font-size: 14rem;
+          margin-top: -30px;
+        }
+      }
+
+      .st3 {
+        font-family: 'Apoc Normal', sans-serif;
+        font-weight: 100;
+        text-shadow: none;
+
+        .month-name {
+          font-size: 6rem;
+        }
+
+        .year-name {
+          font-size: 12rem;
+          margin-top: -30px;
+        }
+      }
+
+      .st4 {
+        font-family: 'OffBit Trial', sans-serif;
+        font-weight: 100;
+        text-shadow: none;
+
+        .month-name {
+          font-size: 6rem;
+        }
+
+        .year-name {
+          font-size: 15rem;
+          margin-top: -20px;
+        }
+      }
+
+      .st5 {
+        font-family: 'Adder', sans-serif;
+        font-weight: 100;
+
+        .month-name {
+          font-size: 3.5rem;
+        }
+
+        .year-name {
+          font-size: 8.2rem;
+        }
+      }
+
+      .st6 {
+        font-family: 'Nostra V1.0', sans-serif;
+
+        .month-name {
+          font-size: 3rem;
+        }
+
+        .year-name {
+          font-size: 7rem;
+          margin-top: -10px;
+        }
+      }
+
+      .st7 {
+        font-family: 'SPSL 1SQ2', sans-serif;
+
+        .month-name {
+          font-size: 4.5rem;
+        }
+
+        .year-name {
+          font-size: 10rem;
+          margin-top: -17px;
+        }
+      }
+
+      .month {
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        color: #17181a;
+        list-style: none;
+        height: 280px;
+
+        li {
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+          text-transform: uppercase;
+        }
+      }
+
+      .weekdays {
+        margin: 0;
+        padding: 0rem 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: left;
+
+        li {
+          display: flex;
+          flex: 0 0 calc(100% / 7);
+          text-align: center;
+          align-items: center;
+          justify-content: space-around;
+          color: #151515;
+        }
+      }
+
+      .v1 {
+        font-family: 'OffBit Trial', sans-serif;
+      }
+
+      .v2 {
+        font-family: 'Formular', sans-serif;
+        font-size: 0.5rem;
+      }
+
+      .v3 {
+        font-family: 'Apoc Normal', sans-serif;
+      }
+
+      .v4 {
+        font-family: 'Formular', sans-serif;
+        font-weight: 100;
+        font-size: 1.5rem;
+      }
+
+      .days {
+        margin: 0;
+        padding: 1rem 3rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-content: flex-start;
+
+        li {
+          padding: 0.5rem;
+          list-style: none;
+          display: flex;
+          flex: 0 0 calc(100% / 7);
+          text-align: center;
+          color: #17181a;
+          font-size: 1.5rem;
+          height: 64px;
+          align-items: center;
+          justify-content: space-around;
+        }
+      }
+
+      .t1 li {
+        border-radius: 20%;
+        background-color: #17181a;
+        color: #f5f5f5;
+        font-family: 'Formular';
+        font-weight: 100;
+        font-size: 2.4rem;
+      }
+      .t2 {
+        font-size: 2.4rem;
+
+        li {
+          border-radius: 50%;
+          background-color: rgba(21, 21, 21, 0);
+          border: solid #151515 1px;
+          font-size: 2.4rem;
+          font-family: helvetica neue;
+          font-weight: 100;
+        }
+      }
+
+      .t3 li {
+        background-color: #17181a;
+        color: #f5f5f5;
+        font-size: 0.8rem;
+        font-family: helvetica neue;
+        font-weight: 300;
+      }
+
+      .t4 li {
+        color: #17181a;
+        font-family: 'Apoc Normal', sans-serif;
+        font-weight: 100;
+        font-size: 2.4rem;
+      }
+
+      .t5 {
+        font-family: 'OffBit Trial', sans-serif;
+        font-weight: 100;
+        border-radius: 7%;
+        background-color: #17181a;
+        li {
+          color: #f5f5f5;
+          font-size: 2.4rem;
+        }
+      }
+
+      .t6 li {
+        border-radius: 50%;
+        background-color: #f5f5f5;
+        color: #17181a;
+        font-style: italic;
+        font-family: 'Formular';
+        font-weight: 600;
+      }
+    }
+
+    .textWrapper {
+      display: flex;
+      width: 95%;
+      left: 2%;
+      bottom: 20px;
+      position: absolute;
+      z-index: 5;
+
+      &.top {
+        align-items: flex-start;
+      }
+
+      &.center {
+        align-items: center;
+      }
+
+      &.bottom {
+        align-items: flex-end;
+      }
+
+      .text {
+        width: 100%;
+        font-family: 'Arial Narrow';
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #17181a;
+        padding: 0 10px;
+      }
+    }
+
+    canvas,
+    .image,
+    #month-calendar {
+      position: absolute;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 2;
+    }
+  }
+}
